@@ -7,5 +7,5 @@ Route::get('/login', function () {
 });
 
 Route::get('/inventory', function () {
-    return "This is an inventory page";
+    return view('inventory');
 });
